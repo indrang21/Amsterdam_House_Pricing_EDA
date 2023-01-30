@@ -26,7 +26,6 @@ I performed some data analysis and visualization on our dataset after data clean
 
 I Chose the Amsterdam Central Station (lat 52.378901,lon 4.9005805) as Amsterdam city center.
 
-![alt text](https://miro.medium.com/max/875/1*XmC8a-Rxun-6R-qtJpBZIA.png)
 
 I used this to calculate the distance of every house in the dataset from Amsterdam city centre.
 
