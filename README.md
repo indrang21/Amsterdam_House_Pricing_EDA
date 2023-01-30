@@ -7,18 +7,28 @@ The Amsterdam Housing Price dataset provides the sales price of individual resid
 Source: Kaggle
 The Amsterdam Housing Price dataset provides the sales price of individual residential property in Amsterdam, Netherlands for the month of August 2021 
 
+#### Variables of the dataset
+
+* Address : Address of house
+* Zip : Zip code of house
+* Price : Sale Price of house
+* Area : Surface area of house (Square meters)
+* Room : Number of rooms
+* Lon : Longitude of the house address
+* Lat : Latitude of the house address
+
 ### Libraries Used:
 Numpy,Pandas,Matplotlib.
 
 
 ### Description:
-We performed some data analysis and visualization on our dataset after data cleaning and adding two new columns (Price_per_sqm and Zip_number). So, here are the key findings from our data analysis:
+I performed some data analysis and visualization on our dataset after data cleaning and adding two new columns (price_sqm and Zip_number). So, here are the key findings from our data analysis:
 
-We Choose the Amsterdam Central Station (lat 52.378901,lon 4.9005805) as Amsterdam city center.
+I Chose the Amsterdam Central Station (lat 52.378901,lon 4.9005805) as Amsterdam city center.
 
 ![alt text](https://miro.medium.com/max/875/1*XmC8a-Rxun-6R-qtJpBZIA.png)
 
-We will use this to calculate the distance of every house in the dataset from Amsterdam city centre.
+I used this to calculate the distance of every house in the dataset from Amsterdam city centre.
 
 ### Findings: 
 1. Area closer to Amsterdam's city center is particularly expensive. The reasons can be amenities, neighborhood, accessibility, etc.
@@ -29,9 +39,9 @@ We will use this to calculate the distance of every house in the dataset from Am
 
     * Maximum houses sold are those with 3 rooms. Houses with 2-4 rooms are in great demand.
 
-2. The more the number of rooms in a house, higher the price should be? However, that is not what our analysis shows as there are 5-rooms houses going for as little as 265000 EUR and as high as 4495000 EUR. 
+2. It is not necessary that the more the number of rooms in a house, the higher the price will be? However, the analysis showed that  there are 5-rooms houses price varies from 265000 EUR to 4495000 EUR. 
 
-3. Bigger the house , higher the price? Yes, there is a clear upwards sloping trend relationship between the surface area of the house and the price of the house.
+3. There is a clear upwards sloping trend relationship between the surface area of the house and the price of the house.
 
 4. Interesting observation here is as the house gets bigger, the marginal price of an additional square meter decreases.
 
